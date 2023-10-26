@@ -34,3 +34,21 @@ ul,li{
     padding: 25px;
     display: inline;
   }
+   .boton{
+     background-color:  rgb(255, 131, 189);
+     border-radius: 2px 2px;
+  }
+  .boton :active{
+    background-color: rgb(231, 0, 108)
+  }
+  .inputBus{
+    font-size: 30px;
+    width: 130px;
+    background-color: rgb(255, 234, 241);
+  }
+  .dateStyle{
+    font-size: large;
+    background-color: rgb(255, 117, 221);
+    width: 100px;
+    height: 50px;
+  }

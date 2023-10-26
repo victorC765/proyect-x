@@ -1,7 +1,12 @@
+"use client"
 import Link from "next/link"
 import "./css/page.css"
+import Image from 'next/image';
 
 export default function pageI(){
+  function probarBusqueda(){
+    alert("busqeuda efectiva")
+  }
   return(
     <selection>
     <header className="cabezal">
@@ -9,10 +14,10 @@ export default function pageI(){
       <h1>PROYECT X</h1>
       </section>
          <selection id ="derecha" className="buscador">
-         <input 
+         <input className="inputBus"
           type="text" 
-          placeHolder="buscar"></input>
-          <button>B</button>
+          placeHolder="Buscar"></input>
+          <button className="boton" onClick={probarBusqueda}><Image src="/icon/lupa-de-busqueda.png" alt="busqueda" width={19} height={20}></Image></button>
           </selection>
          <section>
            <nav>
@@ -25,6 +30,9 @@ export default function pageI(){
         </section> 
         
     </header>
+    <form>
+      <input type="date" name="fecha" className="dateStyle" ></input>
+    </form>
     <section  className="video">
     <iframe width="300"
      height="200" 
