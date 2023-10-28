@@ -1,3 +1,4 @@
+
 "use client"
 import Link from "next/link"
 import "./css/page.css"
@@ -17,14 +18,14 @@ export default function pageI(){
          <input className="inputBus"
           type="text" 
           placeHolder="Buscar"></input>
-          <button className="boton" onClick={probarBusqueda}><Image src="/icon/lupa-de-busqueda.png" alt="busqueda" width={19} height={20}></Image></button>
+          <button className="boton" onClick={probarBusqueda}><Image src="/icon/lupa-de-busqueda.png" alt="busqueda" width={24} height={25}></Image></button>
           </selection>
          <section>
            <nav>
-             <ul>
-               <li>top videos</li>
-               <li>inicio</li>
-               <li>acerca de </li>
+             <ul >
+               <li className="enlaces">top videos</li>
+               <li className="enlaces">inicio</li>
+               <li className="enlaces">acerca de </li>
              </ul>
           </nav>
         </section> 

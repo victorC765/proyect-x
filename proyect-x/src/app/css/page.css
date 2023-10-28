@@ -8,14 +8,19 @@ html,body{
 .titulo{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px  ;
+    padding-left: 60px;
 
 }
 
 .cabezal{
     background-color: rgb(255, 36, 83);
 
-    padding: 20px;
-}
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-right: 35px;
+    padding-bottom: none;
+    border-color:#a200ff;
+  }
 .buscador{
     float: right;
     font-size: large;
@@ -35,20 +40,44 @@ ul,li{
     display: inline;
   }
    .boton{
-     background-color:  rgb(255, 131, 189);
-     border-radius: 2px 2px;
+     background-color:  rgb(255, 147, 197);
+     border-radius: 2px;
+    border: none;
   }
-  .boton :active{
-    background-color: rgb(231, 0, 108)
+  .boton:hover{
+    background-color: rgb(216, 20, 255);
   }
+ 
   .inputBus{
-    font-size: 30px;
+    font-size: 27px;
     width: 130px;
+    height: 25px;
+    border: none;
+    border-radius: 2px;
     background-color: rgb(255, 234, 241);
   }
   .dateStyle{
     font-size: large;
     background-color: rgb(255, 117, 221);
-    width: 100px;
+    width: 200px;
+    font-size: large;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 40px;
+    margin-bottom: 30px;
     height: 50px;
+  }
+  .enlaces{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+  }
+  .enlaces:hover{
+    background-color: #ff6a97;
   }
