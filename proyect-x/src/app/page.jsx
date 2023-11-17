@@ -16,13 +16,19 @@ export default function pageI(){
       </section>
          <selection id ="derecha" className="buscador">
          <input className="inputBus"
-          type="text" 
+          type="text"
+        
           placeHolder="Buscar"></input>
           <button className="boton" onClick={probarBusqueda}><Image src="/icon/lupa-de-busqueda.png" alt="busqueda" width={24} height={25}></Image></button>
           </selection>
+          <section>
+            <Link href="./login">
+              <button type="sumit" className="botonInicio">Inicio de sesión</button>
+            </Link>
+          </section>
          <section>
            <nav>
-             <ul >
+             <ul>
                <li className="enlaces">top videos</li>
                <li className="enlaces">inicio</li>
                <li className="enlaces">acerca de </li>

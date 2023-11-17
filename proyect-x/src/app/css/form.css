@@ -1,0 +1,18 @@
+html,body{
+    position: relative;
+    background-color: black;
+}
+.form{
+   background-color:rgb(71, 71, 71) ;
+   padding: 220px;
+   margin: 50px;
+   text-align: center;
+   border-radius: 20px;
+   border: none;
+}
+.titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: aliceblue;
+
+}
